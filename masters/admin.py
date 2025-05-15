@@ -1,0 +1,16 @@
+from django.contrib import admin
+from masters.models import *
+# admin.site.register(DeliveryCharges)
+# admin.site.register(PackingCharges)
+# admin.site.register(Subscribe)
+# admin.site.register(TaxClassification)
+# admin.site.register(Module)
+# admin.site.register(SubModule)
+# admin.site.register(ConventionalDeliveryCharges)
+# admin.site.register(WaierCharges)
+# admin.site.register(DeliveryChargesConfiguration)
+# admin.site.register(PackingChargesConfiguration)
+admin.site.register(Country)
+admin.site.register(State)
+admin.site.register(CityOrTown)
+admin.site.register(Area)
